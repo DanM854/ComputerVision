@@ -1,0 +1,15 @@
+# Ignorar la carpeta Debug
+**/Debug/
+
+# Ignorar archivos
+**/CMakeLists.txt.user
+
+# Ignorar dependencias de OpenCV
+opencv/
+opencv-*
+opencv*.dll
+opencv*.lib
+opencv*.so
+opencv*.dylib
+opencv*.a
+
