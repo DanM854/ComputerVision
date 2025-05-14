@@ -84,7 +84,7 @@ void mouse(int event, int x, int y, int flag, void* user_data){
 }
 
 int main(){
-    src_img = cv::imread("../Data/pajaro.jpg");
+    src_img = cv::imread("../Data/lena.jpg");
     cv::namedWindow("Imagen original", cv::WINDOW_NORMAL);
     cv::setMouseCallback("Imagen original", mouse, NULL);
     cv::imshow("Imagen Original", src_img);
